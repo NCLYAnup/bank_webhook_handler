@@ -7,7 +7,7 @@ const app = express();
 const prisma = new PrismaClient();
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://paytm-pro-user-app.vercel.app',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type'],
 };
